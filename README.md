@@ -71,7 +71,7 @@ python engine.py
 To test against the random bot or any other bot, edit the `BOT1` and `BOT2` variables at the top of `engine.py`:
 
 ```python
-BOT1 = "my_bot"      # your bot (filename without .py)
+BOT1 = "ayuHATESchess"      # your bot (filename without .py)
 BOT2 = "bot_random"  # opponent
 ```
 
@@ -81,7 +81,7 @@ BOT2 = "bot_random"  # opponent
 
 ```
 chess-bot/
-├── my_bot.py        # The chess engine — competition submission
+├── ayuHATESchess.py        # The chess engine — competition submission
 ├── engine.py        # Match runner provided by competition organisers
 ├── bot_random.py    # Baseline opponent: picks a random legal move
 └── requirements.txt
